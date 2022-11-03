@@ -9,7 +9,7 @@
 source /home/zzl/github/dwmblocks/scripts/dwm_func.sh 
 
 case $BUTTON in
-  #  1) run_or_kill "st-mini -c float-st -t top -g 60x25-300 -e top" ;;
+    1) run_or_kill "st-mini -c float-st -t top -g 40x5-400 -e bash-loop 'get-ip'" ;;
     3) notify-send "test";;
 esac
 

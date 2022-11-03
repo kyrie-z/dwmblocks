@@ -1,0 +1,6 @@
+#/bin/bash
+
+#ip a | grep "inet " | grep -v 127.0.0.1 | awk '{print $8 " " $2}'
+echo " "
+echo " 接口       ipv4	    广播 "
+ip a | grep "inet " | grep -v 127.0.0.1 | awk '{print $8 "  " $2 "  " $4}' | column -t

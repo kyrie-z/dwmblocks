@@ -13,7 +13,9 @@ static const Block blocks[] = {
 //        { "", "dwmUpdate", 0, 9 },
 //        { "", "dwmInternet", 60, 12 },
 //        { "", "dwmMoon", 3600, 10 },
+
     {"| ",  "/home/zzl/github/dwmblocks/scripts/dwm_network.sh",  600,  1},
+//    {"| ",  "/home/zzl/github/dwmblocks/scripts/dwm_wlan.sh",  1,  7},
     {"",  "/home/zzl/github/dwmblocks/scripts/dwm_mem.sh",     60,  3},
     {"",  "/home/zzl/github/dwmblocks/scripts/dwm_alsa.sh",     2,  2},
     {"",  "/home/zzl/github/dwmblocks/scripts/dwm_weather.sh",  1800,  4},
