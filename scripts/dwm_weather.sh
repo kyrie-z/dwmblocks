@@ -11,7 +11,10 @@
 source /home/zzl/github/dwmblocks/scripts/dwm_func.sh
 
 case $BUTTON in
-    1) run_or_kill "st-mini -c float-st -g 130x40-0 -e /home/zzl/github/dwmblocks/scripts/bash-loop 'curl -s wttr.in/wuhan'";;
+    1)  wight="130"
+        x=`xdotool getmouselocation --shell | grep X= | sed 's/X=//'`
+        offset=$[x-(wight/2*7)] 
+        run_or_kill "st-mini -c float-st -t weather -g ${wight}x40+$offset -e bash-loop 'curl -s wttr.in/wuhan'";;
 esac
 
 dwm_weather() {

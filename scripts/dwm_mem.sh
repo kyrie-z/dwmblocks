@@ -7,7 +7,10 @@
 source /home/zzl/github/dwmblocks/scripts/dwm_func.sh
 
 case $BUTTON in
-    1) run_or_kill "st-mini -c float-st -t top -g 90x35-150 -e top" ;;
+    1)  wight="90"
+        x=`xdotool getmouselocation --shell | grep X= | sed 's/X=//'`
+        offset=$[x-(wight/2*7)] 
+        run_or_kill "st-mini -c float-st -t mem -g ${wight}x35+$offset -e top" ;;
     3) notify-send "test";;
 esac
 

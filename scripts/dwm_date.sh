@@ -9,7 +9,10 @@
 source /home/zzl/github/dwmblocks/scripts/dwm_func.sh
 
 case $BUTTON in
-    1) run_or_kill "st-mini -c float-st -t top -g 22x10-100 -e /home/zzl/github/dwmblocks/scripts/bash-loop 'ncal -M'" ;;
+    1)  wight="22"
+        x=`xdotool getmouselocation --shell | grep X= | sed 's/X=//'`
+        offset=$[x-(wight/2*7)] 
+        run_or_kill "st-mini -c float-st -t date -g ${wight}x10+$offset -e bash-loop 'ncal -M'" ;;
     # 1) notify-send "`curl -s wttr.in/wuhan?format=1`";;
 esac
 

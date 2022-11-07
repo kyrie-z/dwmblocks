@@ -9,7 +9,10 @@
 source /home/zzl/github/dwmblocks/scripts/dwm_func.sh 
 
 case $BUTTON in
-    1) run_or_kill "st-mini -c float-st -t top -g 40x5-400 -e bash-loop 'get-ip'" ;;
+    1) 	wight="44"
+		x=`xdotool getmouselocation --shell | grep X= | sed 's/X=//'`
+		offset=$[x-(wight/2*7)]
+		run_or_kill "st-mini -c float-st -t net -g ${wight}x5+$offset -e bash-loop 'get-ip'" ;;
     3) notify-send "test";;
 esac
 
