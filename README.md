@@ -1,7 +1,7 @@
 # dwmblocks-async
 A modular statusbar for `dwm` written in C. You may think of it as `i3blocks`, but for `dwm`.
 fork of https://github.com/UtkarshVerma/dwmblocks-async.git
-
+![image](https://github.com/kyrie-z/dwmblocks/blob/async/demo.gif)
 ## Features
 - Modular
 - Lightweight
