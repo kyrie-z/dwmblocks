@@ -20,5 +20,5 @@ const Block blocks[] = {
 	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_alsa.sh", 2, 3),
 	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_weather.sh", 1800, 4),
 	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_date.sh", 1, 5),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_battery.sh",  60,  0)
+	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_battery.sh",  60,  6)
 };
