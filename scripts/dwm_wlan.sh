@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-source /home/zzl/github/dwmblocks/scripts/dwm_func.sh 
+source /usr/local/bin/dwm_func.sh 
 
 case $BUTTON in
     1)  wight="40"

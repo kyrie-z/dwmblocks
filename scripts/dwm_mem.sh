@@ -4,7 +4,7 @@
 # Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
-source /home/zzl/github/dwmblocks/scripts/dwm_func.sh
+source /usr/local/bin/dwm_func.sh
 
 case $BUTTON in
     1)  wight="90"

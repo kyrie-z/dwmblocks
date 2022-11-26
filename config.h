@@ -15,10 +15,10 @@ const Block blocks[] = {
 //	BLOCK("sb-battery", 5,    23),
 //	BLOCK("sb-date",    1,    24)
 
-	BLOCK("echo -n '| ' && /home/zzl/github/dwmblocks/scripts/dwm_network.sh", 120, 1),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_mem.sh", 30, 2),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_alsa.sh", 2, 3),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_weather.sh", 1800, 4),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_date.sh", 1, 5),
-	BLOCK("/home/zzl/github/dwmblocks/scripts/dwm_battery.sh",  60,  6)
+	BLOCK("echo -n '| ' && /usr/local/bin/dwm_network.sh", 120, 1),
+	BLOCK("/usr/local/bin/dwm_mem.sh", 30, 2),
+	BLOCK("/usr/local/bin/dwm_alsa.sh", 2, 3),
+	BLOCK("/usr/local/bin/dwm_weather.sh", 1800, 4),
+	BLOCK("/usr/local/bin/dwm_date.sh", 1, 5),
+	BLOCK("/usr/local/bin/dwm_battery.sh",  60,  6)
 };

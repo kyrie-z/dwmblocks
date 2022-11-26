@@ -2,3 +2,4 @@
 2. st-mini 只是一个小字体的st 
 3. bash-loop 为了不让程序执行完就退出而加的一个while
 4. 将bash-loop 拷贝到系统路径
+5. install xdotool 

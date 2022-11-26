@@ -6,7 +6,7 @@
 
 # Date is formatted like like this: "[Mon 01-01-00 00:00:00]"
 
-source /home/zzl/github/dwmblocks/scripts/dwm_func.sh
+source /usr/local/bin/dwm_func.sh
 
 case $BUTTON in
     1)  wight="22"
